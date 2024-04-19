@@ -15,8 +15,8 @@ hero:
       text: 笔记
       link: /note-guide
     - theme: alt
-      text: 文档
-      link: /doc-guide
+      text: 资源
+      link: /source-guide
 
 features:
   - title: 前端
