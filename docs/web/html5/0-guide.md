@@ -4,46 +4,32 @@ outline: deep
 
 # HTML5概述
 
-HTML （HyperText Markup Language，超文本标记语言）不是编程语言，而是一种超文本标记语言 (markup language)，它定义了网页内容的含义和结构，是网页制作所必备的。HTML通过标签的使用来达到设计网页和界面的效果。
+## 概述
+- HTML（HyperText Markup Language，超文本标记语言）
 
-The main `useData()` API can be used to access site, theme, and page data for the current page. It works in both `.md` and `.vue` files:
+> HTML不是编程语言，而是一种超文本标记语言 (markup language)
 
-```md
-<script setup>
-import { useData } from 'vitepress'
+> 它定义了网页内容的含义和结构，是网页制作所必备的，HTML通过标签的使用来达到设计网页和界面的效果。
 
-const { theme, page, frontmatter } = useData()
-</script>
+- H5 是 HTML5 的简称,就是 HTML 的第5个版本。
 
-## Results
+## 推出的理由及目标
+- 理由
+> 时代的要求
 
-### Theme Data
-<pre>{{ theme }}</pre>
+> 微软的Internet Explorer8对HTML5积极的赞同和支持
 
-### Page Data
-<pre>{{ page }}</pre>
+> 兼容性、实用性、非革命性的发展，希望把目前的WEB上存在的各种问题一并解决掉
 
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-```
+- 目标
 
-<script setup>
-import { useData } from 'vitepress'
+> 解决WEB浏览器间的兼容性低
 
-const { site, theme, page, frontmatter } = useData()
-</script>
+> 解决文档结构不够明确
 
-## Results
+> 解决WEB应用程序的功能受到的限制
 
-### Theme Data
-<pre>{{ theme }}</pre>
-
-### Page Data
-<pre>{{ page }}</pre>
-
-### Page Frontmatter
-<pre>{{ frontmatter }}</pre>
-
-## More
-
-Check out the documentation for the [full list of runtime APIs](https://vitepress.dev/reference/runtime-api#usedata).
+## 文件命名
+- 使用小写字线命名文件，不要出现中文字符
+- 扩展名标准是.html，当然也可以使用.htm
+- 多个单词可以使用- 或 _ 连接，建议使用- 字符如user-create.html

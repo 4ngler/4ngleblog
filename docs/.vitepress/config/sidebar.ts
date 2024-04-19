@@ -5,7 +5,8 @@ export const Sidebar = {
           items: [
             { text: '概述',
                 items: [
-                    { text: 'HTML5概述', link: '/web/html5/0-guide' }
+                    { text: 'HTML5概述', link: '/web/html5/0-guide' },
+                    { text: 'HTML5与HTML4的区别', link: '/web/html5/1-difference-between-html5-and-html4' }
                 ]
             },
             { text: '基础',
