@@ -1,0 +1,7 @@
+body {
+    background-image: url('./bg.svg'); /* 假设背景图片名为background.jpg，位于public目录下 */
+    background-size: cover; /* 背景图覆盖整个页面 */
+    background-repeat: no-repeat; /* 背景图不重复 */
+    background-position: center; /* 背景图居中 */
+    background-attachment: fixed; /* 背景图固定，不随页面滚动 */
+}
