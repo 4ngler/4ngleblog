@@ -37,7 +37,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024 4ngle版权所有'
+      copyright: 'Copyright © 2024 build by vitepress'
     },
 
     // 编辑链接
