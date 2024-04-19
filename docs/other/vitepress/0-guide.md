@@ -41,19 +41,26 @@ outline: deep
 ```
 ┌  Welcome to VitePress!
 │
-◇  Where should VitePress initialize the config?
+◇  Where should VitePress initialize the config?//设置配置路径
 │  ./docs
 │
-◇  Site title:
+◇  Site title://设置站点名称
 │  My Awesome Project
 │
-◇  Site description:
+◇  Site description://设置站点描述
 │  A VitePress Site
 │
 ◆  Theme:
-│  ● Default Theme (Out of the box, good-looking docs)
-│  ○ Default Theme + Customization
-│  ○ Custom Theme
+│  ● Default Theme (Out of the box, good-looking docs)//默认主题
+│  ○ Default Theme + Customization//默认主题+自定义
+│  ○ Custom Theme//自定义
 └
 
 ```
+
+TODO
+到此安装完成。更详细的vitepress配置与使用，看官方文档或后续再更新。
+
+## 自动化部署到github
+
+- 部署教程：[地址](https://blog.csdn.net/weixin_73480865/article/details/137212090)
