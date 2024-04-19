@@ -5,7 +5,7 @@ import { Sidebar } from './config/sidebar'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
-  base: '/4ngleblog/',
+  base: '/',
   
   title: '4ngle’s Blog',
   
