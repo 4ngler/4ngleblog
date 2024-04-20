@@ -34,6 +34,7 @@ export const Nav = [
         items:[
             {text: 'NVM安装', link: '/other/nvm/0-guide'},
             {text: 'Vitepress搭建', link: '/other/vitepress/0-guide'},
+            {text: 'Windows系统激活工具', link: 'https://cmwtat.cloudmoe.com/cn.html'},
         ]
     },
 ]
