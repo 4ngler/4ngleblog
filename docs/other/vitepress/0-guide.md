@@ -12,17 +12,19 @@ outline: deep
 
 ::: tip
 
-**Node.js 18 及以上版本。**<br>
-**通过命令行界面 (CLI) 访问 VitePress 的终端。**<br>
-**支持 Markdown 语法的编辑器。**<br>
-**推荐 VSCode 及其官方 Vue 扩展。**<br>
+**Node.js 18 及以上版本。**
+
+**通过命令行界面 (CLI) 访问 VitePress 的终端。**
+
+**支持 Markdown 语法的编辑器。**
+
+**推荐 VSCode 及其官方 Vue 扩展。**
 
 :::
 
 - 安装nvm
 
 > [nvm安装教程](/other/nvm/0-guide.html)
-
 
 - 安装yarn
 
@@ -36,9 +38,10 @@ outline: deep
 
 > ` yarn vitepress init `
 
-回答几个简单的问题：
+## 回答几个简单的问题
 
-```
+```shell
+
 ┌  Welcome to VitePress!
 │
 ◇  Where should VitePress initialize the config?//设置配置路径
